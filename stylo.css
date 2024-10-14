@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+.container {
+    display: contents;
+    background-color: white;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    padding: 20px;
+    width: 55%;
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.calculo-form {
+    flex: 1;
+}
+.caixa {
+    border-radius: 5px;
+    margin: 10px;
+    width: 385px;
+    padding: 5px;
+}
+label {
+    font-weight: bold;
+    margin: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+th, td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+button {
+    width: 400px;
+    color: white;
+    background-color: rgb(68, 102, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
